@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+.header, .footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #FFDAB9;
+    padding: 1em;
+}
+
+.main_content{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.sub_content{
+    width: 80%;
+    padding: 1em;
+}
+
+.nav, .ads{
+    width: 20%;
+    padding: 1em;
+    margin: 0;
+}
+
+.nav{
+    background-color: #FFFFE0;
+}
+
+.ads{
+    background-color: #8FBC8B;
+}
