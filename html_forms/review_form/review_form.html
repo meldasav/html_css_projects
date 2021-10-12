@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Review Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form_review">
+            <form action="">
+                <p><strong>Your personal info</strong></p>
+                <div class="review-input">
+                    <div class="icon"><span><i class="fa fa-user"></i></span></div>
+                    <input type="text" name="review-name" id="review-name">
+                </div>
+                <div class="review-input">
+                    <div class="icon"><span><i class="fa fa-envelope"></i></span></div>
+                    <input type="email" name="review-email" id="review-email">
+                </div>
+                <div class="review-input">
+                    <div class="icon"><span><i class="fa fa-globe"></i></span></div>
+                    <input type="url" name="review-url" id="review-url">
+                </div>
+                <p><strong>Rate our overall services.</strong></p>
+                <div class="review-input">
+                    <div class="icon"><span><i class="fa fa-heart"></i></span></div>
+                    <select name="review-rate" id="review-rate">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+                <p><strong>Write your feedback.</strong></p>
+                <div class="review-input">
+                    <div class="icon"><span><i class="fa fa-pencil"></i></span></div>
+                    <textarea name="review-feedback" id="review-feedback" rows="4"></textarea>
+                </div>
+                <div class="review-input">
+                    <input type="review-submit" id="review-submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="https://use.fontawesome.com/a6f0361695.js"></script>
+
+</html>

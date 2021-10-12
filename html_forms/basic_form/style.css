@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+}
+div{
+    margin: 1em 0;
+}

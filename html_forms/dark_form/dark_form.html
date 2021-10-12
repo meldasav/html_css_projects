@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dark Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <form action="">
+                <div class="form_section">
+                    <h2 id="dark-title">DARK FORM</h2>
+                </div>
+                <div class="form_section">
+                    <label for="phone">Enter the valid phone number <i>*</i></label>
+                    <input type="tel" name="phone" id="phone">
+                </div>
+                <div class="form_section">
+                    <div class="color-radio coll">
+                        <label>Choose a color<i>*</i></label>
+                        <br>
+                        <span>Red</span>
+                        <input type="radio" name="color-radio" id="red">
+                        <span>Green</span>
+                        <input type="radio" name="color-radio" id="green">
+                        <span>Blue</span>
+                        <input type="radio" name="color-radio" id="blue">
+                    </div>
+                    <div class="state coll">
+                        <label>Choose a state<i>*</i></label>
+                        <select name="state" id="state">
+                            <option selected="true" disabled>--No select--</option>
+                            <option value="Chicago">Chicago</option>
+                            <option value="Paris">Paris</option>
+                            <option value="London">London</option>
+                            <option value="Brugge">Brugge</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form_section submit">
+                    <label for="agree">Agree <i>*</i></label>
+                    <input type="checkbox" name="agree" id="agree">
+                    <input type="submit" id="submit-dark" value="Submit form">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 800px;
+    min-width: 50px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.form_review{
+    max-width: 700px;
+    border: solid 1px #f1f1f1;
+    background: #fbfbfb;
+    box-shadow: #e6e6e6 0 0 4px;
+    border-radius: 0.3em;
+    margin: 0.5rem auto;
+    padding: 1rem;
+}
+
+.review-input{
+    display: flex;
+    margin: 1rem 0;
+}
+
+input, select, textarea{
+    padding: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom-right-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    width: 100%;
+}
+
+.icon{
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    background-color: lightgray;
+    padding: 0.33rem;
+    text-align: center;
+    width: 75px;
+}
+
+#review-submit{
+    width: 4.3rem;
+    color: #fff;
+    background-color: #0275d8;
+    border-color: #0275d8;
+    border-radius: 0.25rem;
+    padding-left: 0.75rem;
+}

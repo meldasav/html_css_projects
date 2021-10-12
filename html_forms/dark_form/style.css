@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(43, 43, 43);
+}
+.form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label, input{
+    display: block;
+    color: #fff;
+}
+
+input, select{
+    cursor: pointer;
+}
+
+#dark-title{
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 1px #000
+}
+
+
+
+.form_section{
+    padding: 1em;
+}
+
+#phone{
+    width: 27.5em;
+    padding: 0.5em;
+    border-top-color: #5f5f5f;
+    border-bottom-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 8px 0 rgb(17 17 17 / 82%);
+}
+
+
+
+.color-radio label, .color-radio input{
+    display: inline-block;
+}
+
+.color-radio span{
+    color:rgb(179, 179, 179);
+}
+
+input[type='radio'], input[type='checkbox']{
+    width: 1.3em;
+    height: 1.3em;
+}
+
+select{
+    width: 12em;
+    padding: 0.2em;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 3px 0 rgb(17 17 17 / 82%);
+}
+
+.form_section{
+    position: relative;
+}
+
+.coll:nth-child(1){
+    float: left;
+}
+.coll:nth-child(2){
+    float: right;
+}
+
+i{
+    color: red;
+}
+
+.submit{
+    display: block;
+    position: relative;
+    clear: both;
+    margin: 3em 0;
+    text-align: right;
+}
+
+input[type='submit']{
+    padding: 0.4em 2em;
+    border-radius: 5px;
+    color: #000;
+    margin-left: 2em;
+    text-shadow: 1px 1px 0px #ffffff;
+}
+
+.submit label, .submit input{
+    position: relative;
+    display: inline-block;
+}

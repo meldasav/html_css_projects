@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+.form_select{
+    width: 1000px;
+    height: auto;
+    border: 1px solid #000;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.select-box-1{
+    width: 100%;
+    padding: 3rem;
+    background-color: green;
+    border: 5px solid yellow;
+    border-radius: 1rem;
+}
+
+.select-box-2{
+    width: 100%;
+    padding: 1rem;
+    background-color: blue;
+    border: 5px solid yellow;
+    border-radius: 0.3rem;
+}
+
+label{
+    padding: 0 2rem 0 1rem;
+    font-weight: bold;
+    font-size: 20px;
+    color: yellow;
+}
+
+select{
+    width: 40%;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}

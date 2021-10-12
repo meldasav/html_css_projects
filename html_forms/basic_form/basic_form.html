@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Basic Form</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <div class="first-name input">
+                <label for="first-name">First name:</label><br>
+                <input type="text" id="first-name">
+            </div>
+            <div class="password input">
+                <label for="password">Password:</label><br>
+                <input type="password" id="password">
+            </div>
+            <div class="signed-in">
+                <input type="checkbox" id="signed-in">
+                <label for="signed-in">Stay logged in</label>
+            </div>
+            <div class="gender">
+                <h3>Gender</h3>
+                <input type="radio" name="gender" id="male" value="Male" />
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" name="gender" id="female" value="Female">
+                <label for="female">Female</label>
+            </div>
+            <div class="cars">
+                <h4>Select a car</h4>
+                <select name="cars" id="cars">
+                    <option selected disabled>Select a car</option>
+                    <option value="Tesla">Tesla</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Mercedes">Mercedes</option>
+                    <option value="Audi">Audi</option>
+                </select>
+            </div>
+            <div class="message">
+                <textarea name="message" id="message" cols="30"
+                    rows="10">Please tell about your experience...</textarea><br>
+                    <button>Click me!</button>
+            </div>
+            <div>
+                <input type="text" name="free" id="free" placeholder="Type something">
+            </div>
+            <div>
+                <input type="submit" id="submit" value="Submit">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
