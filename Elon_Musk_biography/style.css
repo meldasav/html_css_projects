@@ -1,0 +1,29 @@
+.container{
+    background-color: #F5F5F5;
+    width: 1000px;
+    height: auto;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #CD5C5C;
+}
+
+span{
+    font-weight: bold;
+}
+
+span:first-of-type{
+    color: #2E8B57;
+}
+
+a{
+    display: block;
+    color: #CD5C5C;
+}
+a:hover{
+    color: #B22222;
+}
