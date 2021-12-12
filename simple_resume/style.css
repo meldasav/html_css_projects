@@ -1,0 +1,50 @@
+body {
+    box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    border: 1px solid #000;
+    background-color: #F0F8FF;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box{
+    margin: 3rem 2rem;
+}
+
+.content{
+    margin: 0 2rem;
+}
+
+#heading1{
+    color: #B0C4DE;
+    font-weight: 400;
+}
+
+#heading1>span{
+    color: #4682B4;
+    font-weight: bold;
+}
+
+.box1 span{
+    font-weight: bold;
+    color: #4682B4;
+}
+
+h2, h3{
+    color: #4682B4;
+    font-weight: 400;
+}
+
+h3{
+    color: #4682B4;
+}
+
+h3 span{
+    color: #B0C4DE;
+}
+
+.box2 p{
+    font-weight: 400;
+    color: #696969;
+}
